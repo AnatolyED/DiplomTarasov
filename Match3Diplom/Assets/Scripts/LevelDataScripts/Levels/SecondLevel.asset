@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b6a80f93d7ae54cabbbcc6aa1b90d8, type: 3}
+  m_Name: SecondLevel
+  m_EditorClassIdentifier: 
+  levelBackGroundSprite: {fileID: 21300000, guid: df6e0510cbf0de341be84112bbb71522, type: 3}
+  size:
+    BoardHeight: 9
+    BoardWidth: 9
+  emptyCells: []
+  obstaclesSprite: []
+  obstacles: []
+  cellData:
+    CellSize: 100
+    CellPrefab: {fileID: 1962741437468691250, guid: 860b012046116974681b45dfb7dc8772, type: 3}
+    CellSprites:
+    - {fileID: 21300000, guid: 2c5bd3d9e117a3d48b0be6484108357d, type: 3}
+    - {fileID: 21300000, guid: 9f2e18718766d844ba1a0191662d47ef, type: 3}
+    - {fileID: 21300000, guid: 5d73bf39ffc60d243be0cde93d20fbf8, type: 3}
+    - {fileID: 21300000, guid: 39280ae794bd69f44bc82706d1076cef, type: 3}
+    - {fileID: 21300000, guid: 17eb6895f972f05468b0b873ad38c412, type: 3}
